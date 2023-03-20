@@ -62,6 +62,8 @@ a{
 
 /* Estilos Barra de navegacion */
 
+
+
 .navbar-brand{
     font-family: langar;
     font-size: 2rem;
@@ -300,6 +302,10 @@ height: 300px;
     .g-col-12 h2, h1 {
         color: #e0f55a;
         font-size: 0.9375rem;
+    }
+
+    .g-col-12 video{
+        margin-left: 30px;
     }
 
     .foot_colum-2{
