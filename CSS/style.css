@@ -24,7 +24,8 @@ a{
     color: aliceblue;
 }
 
-/* estilos del contenedor */
+/* :::::: estilos del contenedor :::::::::::::::::::::: */
+
 .contenedor{
     /* background-color: aqua; */
     width: 95%;
@@ -55,7 +56,6 @@ a{
 }
 
 /* Estilos Barra de navegacion */
-
 
 .navbar-brand{
     font-family: langar;
@@ -240,6 +240,10 @@ height: 300px;
 
 @media screen and (max-width: 450px){
 
+    .contenedor{
+        width: 100%;
+    }
+
     .navbar-toggler{
         padding: 0;
     }
@@ -276,14 +280,21 @@ height: 300px;
     p{
         font-size: 0.75rem;
     }
-    h1, h2, h3{
+    
+      
+    h3{
         font-size: 1rem;
         color: #f2f3ed;
         }
 
+    .g-col-12 h2, h1 {
+        color: #e0f55a;
+        font-size: 0.9375rem;
+    }
+
     .foot_colum-2{
         font-size: 0.75rem;
-        padding: 2px;
+        padding: 3px;
       
     }
 
@@ -320,7 +331,7 @@ height: 300px;
     }
 
     .g-col-12{
-        padding: 0;
+        padding: 2;
     }
 
 
