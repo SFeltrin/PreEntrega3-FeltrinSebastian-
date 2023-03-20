@@ -1,9 +1,12 @@
+/*  estilos generales */
+
 *{
     padding: 0;
     margin: 0;
     list-style:none;
     box-sizing: border-box;
 }
+
 
 body{
     background-color: #000000;
@@ -34,6 +37,8 @@ a{
     margin: 0 auto;
     overflow: hidden;
 }
+/* :::::: Fin de estilos del contenedor :::::::::::::::::::::: */
+
 
 /* estilos baner */
 
@@ -85,74 +90,6 @@ a{
 
 
 
-/* ESTILOS CONTACTO.HTML */
-
-.formulario{
-    width: 100%;
-    height: 37rem;
-    display: block;
-    
-    }
-    
-        .seccion-form{
-        width: 100%;
-        height: 37rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        }
-    
-            .seccion-form form{
-            width: 500px;
-            margin-bottom: 100px;
-            flex-direction: column;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            }
-    
-                .seccion-form form input{
-    
-                    width: 100%;
-                    margin: 5px;
-                    padding: 5px;
-                    font-size: 1rem;
-                    border: none;
-                    outline: #f8f5f4 solid .3px;
-                    border-radius: 3px;
-                    }
-    
-                .seccion-form form textarea{
-                    resize: none;
-                    height: 200px;
-                    width: 100%;
-                    margin: 5px;
-                    padding: 5px;
-                    font-size: 1rem;
-                    border: none;
-                    outline: #f8f5f4 solid 0.3px;
-                    border-radius: 3px;
-                }
-    
-                .seccion-form form .btn-container{
-                    width: 100%;
-                    display: flex;                
-                }
-    
-                .btn-cancel{
-                background-color: #f18e6d;
-                    color: #f3f7f6;
-                }
-    
-                .btn-success{
-                    background-color: #458f2f;
-                    color: #f3f7f6;
-                }
-
-
-
-
-
 /* ESTILOS FOOTER */
 
 .g-col-, .g-col-sm-, .g-col-md-4, .g-col-lg-4{
@@ -173,7 +110,7 @@ a{
         margin-left: 0.62rem;
     }
 
-
+/*::::::::::::: Comienza estilos de paginas ::::::::::::::::::::::::: */
 
 /* estilos index */
 
@@ -191,7 +128,11 @@ a{
     height: 25rem;
 }
 
-/* estilos Porfolio */
+/* Fin de estilos index */
+
+
+
+/* Comienzo de estilos Porfolio */
 
 /* modificar carousel */
 #carouselExampleIndicators{
@@ -204,17 +145,18 @@ a{
     object-fit: cover;
 }
 
-    /* modificar grid  */
+/* modificar grid bootstraps anime y realismo  */
 
 .sec_porf{
     padding: 20px;
 }
+/* fin grid bootstraps anime y realismo  */
 
 h3{
     font-size: 1.25rem;
     color: #FFFF;
 }
-    
+
 .realismo img{
 width: 300px;
 height: 300px;
@@ -225,6 +167,72 @@ height: 300px;
     height: 300px;
 }
 
+/* Fin  de estilos Porfolio */
+
+
+/* ESTILOS CONTACTO.HTML */
+
+.formulario{
+    width: 100%;
+    height: 37rem;
+    display: block;
+
+    }
+
+        .seccion-form{
+        width: 100%;
+        height: 37rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        }
+
+            .seccion-form form{
+            width: 500px;
+            margin-bottom: 100px;
+            flex-direction: column;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            }
+
+                .seccion-form form input{
+
+                    width: 100%;
+                    margin: 5px;
+                    padding: 5px;
+                    font-size: 1rem;
+                    border: none;
+                    outline: #f8f5f4 solid .3px;
+                    border-radius: 3px;
+                    }
+
+                .seccion-form form textarea{
+                    resize: none;
+                    height: 200px;
+                    width: 100%;
+                    margin: 5px;
+                    padding: 5px;
+                    font-size: 1rem;
+                    border: none;
+                    outline: #f8f5f4 solid 0.3px;
+                    border-radius: 3px;
+                }
+
+                .seccion-form form .btn-container{
+                    width: 100%;
+                    display: flex;
+                }
+
+                .btn-cancel{
+                background-color: #f18e6d;
+                    color: #f3f7f6;
+                }
+
+                .btn-success{
+                    background-color: #458f2f;
+                    color: #f3f7f6;
+                }
 
 /* ESTILOS PREGUNTAS */
 
@@ -237,6 +245,8 @@ height: 300px;
     width: 500px;
     height: 300PX;
 }
+
+        /* :::::::::::::::::: ESTILOS RESPONSIVE QUERIES::::::::::::::::::::::::::::::::::: */
 
 @media screen and (max-width: 450px){
 
@@ -255,21 +265,21 @@ height: 300px;
     .navbar-brand{
         font-size: 23px;
         margin-left: 25%;
-    
+
     }
-    
+
     .baner,.baner_img, .baner_img img{
         width: 100%;
         height: 10rem;
     }
-   
+
     .baner video {
         object-fit: cover;
         width:100%;
         height: 10rem;
     }
-    
-       
+
+
     .video_index,.video_index video{
         width: 100%;
         height: 12rem;
@@ -280,8 +290,8 @@ height: 300px;
     p{
         font-size: 0.75rem;
     }
-    
-      
+
+
     h3{
         font-size: 1rem;
         color: #f2f3ed;
@@ -295,12 +305,12 @@ height: 300px;
     .foot_colum-2{
         font-size: 0.75rem;
         padding: 3px;
-      
+
     }
 
     .btn{
         height: 30px;
-        
+
     }
 
     #carouselExampleIndicators{
@@ -310,7 +320,7 @@ height: 300px;
 
         .carousel-item img {
             height: 200px;
-            
+
         }
 
     .realismo img{
