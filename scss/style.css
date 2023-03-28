@@ -278,4 +278,25 @@ body .links a {
     width: 90%;
     height: 95%;
   }
+}
+@media (max-width: 300px) {
+  body .contenedor {
+    width: 100%;
+  }
+  body .contenedor .navbar {
+    font-size: 11px;
+  }
+  body .contenedor .navbar .navbar-toggler {
+    padding: 0;
+  }
+  body .contenedor .navbar .navbar-brand {
+    font-size: 20px !important;
+    margin-left: 15%;
+  }
+  body .contenedor .baner {
+    height: 150px;
+  }
+  body .contenedor .baner video {
+    height: 100%;
+  }
 }/*# sourceMappingURL=style.css.map */

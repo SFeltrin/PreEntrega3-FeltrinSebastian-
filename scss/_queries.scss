@@ -119,4 +119,30 @@
 }
 }
 
+@media (max-width: 300px){
 
+    body .contenedor{
+        width: 100%;
+     
+        .navbar{
+            font-size: 11px;
+
+            .navbar-toggler{
+                padding: 0;
+            }
+       
+        .navbar-brand{
+            font-size: 20px !important;
+            margin-left: 15%;
+            }    
+        }
+        .baner {
+            height: 150px;
+        
+            video{
+            height: 100%;
+        }
+    }
+        
+}
+}
