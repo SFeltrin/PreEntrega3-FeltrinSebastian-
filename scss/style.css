@@ -163,10 +163,10 @@ body footer .g-col- .new, body .g-col-sm- .new, body .g-col-md-4 .new, body .g-c
   color: #f3f7f6;
   font-family: "Open Sans", sans-serif;
 }
-body footer .g-col- h1, body footer .g-col- h2, body .g-col-sm- h1, body .g-col-sm- h2, body .g-col-md-4 h1, body .g-col-md-4 h2, body .g-col-lg-4 h1, body .g-col-lg-4 h2 {
+body footer .g-col- h2, body .g-col-sm- h2, body .g-col-md-4 h2, body .g-col-lg-4 h2 {
   margin-top: 5px;
 }
-body footer .g-col- h1, body footer .g-col- h2, body footer .g-col- h3, body .g-col-sm- h1, body .g-col-sm- h2, body .g-col-sm- h3, body .g-col-md-4 h1, body .g-col-md-4 h2, body .g-col-md-4 h3, body .g-col-lg-4 h1, body .g-col-lg-4 h2, body .g-col-lg-4 h3 {
+body footer .g-col- h2, body footer .g-col- h3, body .g-col-sm- h2, body .g-col-sm- h3, body .g-col-md-4 h2, body .g-col-md-4 h3, body .g-col-lg-4 h2, body .g-col-lg-4 h3 {
   font-size: 1.1rem;
   color: #e0f55a;
   font-family: "Open Sans", sans-serif;
@@ -181,7 +181,7 @@ body .links a {
 .b_galery {
   background-color: #f3f7f6;
 }
-.b_galery H1 {
+.b_galery h1 {
   color: #e01414;
   font-family: "Langar", cursive;
 }
