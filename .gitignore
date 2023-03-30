@@ -36,7 +36,6 @@ Temporary Items
 
 ### VisualStudioCode ###
 backupcss
-style.css.map
 package.json
 .vscode/*
 !.vscode/settings.json
