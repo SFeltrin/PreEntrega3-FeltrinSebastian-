@@ -1,6 +1,6 @@
 @media (max-width: 450px){
 
-    .contenedor{
+    body .contenedor{
         width: 100%;
 
         .navbar{
@@ -46,14 +46,13 @@
         color: #f2f3ed;
         }
 
-
+    h2, h1 {
+            color: #e0f55a;
+            font-size: 0.9375rem;
+        }
+    
     .g-col-12{
         padding: 2;
-
-        h2, h1 {
-        color: #e0f55a;
-        font-size: 0.9375rem;
-    }
 
         video{
         margin-left: 30px;
@@ -77,18 +76,18 @@
     #carouselExampleIndicators{
         width: 95%;
         height: 200px;
+        margin: 0;
         
         .carousel-item img {
+            width: 100%;
             height: 200px;
 
         }
     }
 
-    .realismo img{
-        height: 200px;
-    }
-    .anime img {
-        height: 200px;
+    .realismo img, .anime img{
+       width: 23rem;
+        height: 12rem;
     }
 
     .preguntas{
@@ -119,30 +118,20 @@
 }
 }
 
-@media (max-width: 300px){
+@media (max-width: 375px){
 
-    body .contenedor{
+body .contenedor{
+   
+    
+    section{
+        
+    .anime img, .realismo img{
         width: 100%;
-     
-        .navbar{
-            font-size: 11px;
-
-            .navbar-toggler{
-                padding: 0;
-            }
-       
-        .navbar-brand{
-            font-size: 20px !important;
-            margin-left: 15%;
-            }    
-        }
-        .baner {
-            height: 150px;
-        
-            video{
-            height: 100%;
-        }
     }
-        
-}
+   } 
+   .ecopy{
+    height: 3rem;
+} 
+ }
+
 }
