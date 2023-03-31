@@ -88,8 +88,22 @@ body .contenedor h3 {
   color: white;
 }
 body .contenedor .realismo img, body .contenedor .anime img {
+  -o-object-fit: cover;
+     object-fit: cover;
   width: 400px;
   height: 400px;
+}
+body .contenedor main .h_art {
+  color: #f3f7f6;
+  font-size: 20px;
+  padding: 10px;
+}
+body .contenedor main .img-thumbnail {
+  margin: 15px 15px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 300px;
+  height: 300px;
 }
 body .contenedor .preguntas {
   margin-top: 30px;
@@ -159,9 +173,15 @@ body footer .g-col-, body .g-col-sm-, body .g-col-md-4, body .g-col-lg-4 {
   padding: 10px;
   font-family: "Open Sans", sans-serif;
 }
-body footer .g-col- .new, body .g-col-sm- .new, body .g-col-md-4 .new, body .g-col-lg-4 .new {
+body footer .g-col- .p_map, body .g-col-sm- .p_map, body .g-col-md-4 .p_map, body .g-col-lg-4 .p_map {
+  margin-right: 15px;
+}
+body footer .g-col- p, body .g-col-sm- p, body .g-col-md-4 p, body .g-col-lg-4 p {
   color: #f3f7f6;
   font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  text-align: start;
+  text-align: center;
 }
 body footer .g-col- h2, body .g-col-sm- h2, body .g-col-md-4 h2, body .g-col-lg-4 h2 {
   margin-top: 5px;

@@ -35,7 +35,7 @@ Temporary Items
 *.icloud
 
 ### VisualStudioCode ###
-
+scss
 backupcss
 package.json
 .vscode/*
@@ -83,9 +83,7 @@ $RECYCLE.BIN/
 *.lnk
 
 backup-css
-
-
-
+scss
 
 
 # \Media\Videos
